@@ -11,7 +11,7 @@
 	<key>#WARNING - 4</key>
 	<string>Use SampleCustom.plist only for special cases.</string>
 	<key>#OCVERSION</key>
-	<string>0.8.8</string>
+	<string>0.8.9</string>
 	<key>ACPI</key>
 	<dict>
 		<key>Add</key>
@@ -466,7 +466,7 @@
 				<key>Comment</key>
 				<string>USB Ports All</string>
 				<key>Enabled</key>
-				<true/>
+				<false/>
 				<key>ExecutablePath</key>
 				<string></string>
 				<key>MaxKernel</key>
@@ -484,7 +484,7 @@
 				<key>Comment</key>
 				<string>USB Ports Mapping</string>
 				<key>Enabled</key>
-				<false/>
+				<true/>
 				<key>ExecutablePath</key>
 				<string></string>
 				<key>MaxKernel</key>
@@ -1243,7 +1243,7 @@
 				<key>SystemAudioVolume</key>
 				<data>Rg==</data>
 				<key>boot-args</key>
-				<string>-v keepsyms=1 debug=0x100 agdpmod=pikera e1000=0 vsmcgen=1</string>
+				<string>keepsyms=1 debug=0x100 agdpmod=pikera e1000=0 vsmcgen=1</string>
 				<key>csr-active-config</key>
 				<data>AAAAAA==</data>
 				<key>prev-lang:kbd</key>
